@@ -1,13 +1,16 @@
 # cep-vue-cli-router
 
-## Boilerplate to be used for upcoming Yeoman generator
+## Template used in [generator-cep-vue-cli](https://github.com/Inventsable/generator-cep-vue-cli)
+
+> **NOTE:** This repo should not be `git clone`d directly because it has breaking placeholder values and will not run on it's own.
 
 ```bash
-# future usage:
+# NPM, Yeoman and generator-cep-vue-cli are required
 npm install -g yo
-npm install -g generator-cep-vue
+npm install -g generator-cep-vue-cli
 
-# in appData/Roaming/CEP/extensions:
+# In any valid CEP extension folder:
+# (e.g. <USERNAME>/AppData/Roaming/CEP/extensions)
 yo cep-vue-cli
 ```
 
@@ -18,7 +21,7 @@ yo cep-vue-cli
 - [Vue-CLI-3](https://cli.vuejs.org/) as Node.js tooling (webkit)
 - Paginations via [Vue Router](https://router.vuejs.org/)
 - Full typescript support for any app with pravdomil's Adobe types (same as writing .jsx scripts but access to host DOM as autocomplete while typing)
-- Personal utility components that handle context/flyout menus, launching CEF debug, matching all host app styles and more
+- Various personal utility components that handle context/flyout menus, launching CEF debug, common errors with Webpack, matching all host app styles and more
 
 ## Filetree for panel:
 
