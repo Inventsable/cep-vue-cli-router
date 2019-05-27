@@ -4,9 +4,7 @@
     <Extension Id="com.namehere.panel" Version="1.0.0" />
   </ExtensionList>
   <ExecutionEnvironment>
-    <HostList>
-      <Host Name="ILST" Version="[17,99.9]" />
-      <Host Name="PHXS" Version="[16,99.9]" />
+    <HostList>hostlisthere
     </HostList>
     <LocaleList>
       <Locale Code="All" />
