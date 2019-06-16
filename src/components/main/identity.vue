@@ -114,7 +114,7 @@ export default {
         : navigator.platform.indexOf("Mac") > -1
         ? "Mac"
         : "Unknown";
-
+    this.app.identity = this;
     this.init();
   },
   methods: {

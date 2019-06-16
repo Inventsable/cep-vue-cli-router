@@ -43,10 +43,7 @@ export default {
     this.csInterface = new CSInterface();
     this.csInterface.addEventListener("console", this.consoler);
 
-    // Initialize utility components
-    this.identity.init();
-    this.stylizer.init();
-    this.menus.init();
+    // Utility components are already mounted prior to this
     console.log(
       `${this.identity.extName} ${this.identity.extVersion} : ${
         this.identity.isDev ? "DEV" : "BUILD"

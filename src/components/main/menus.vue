@@ -126,6 +126,7 @@ export default {
     init() {
       this.setContextMenu();
       this.setFlyoutMenu();
+      this.app.menus = this;
     }
   }
 };

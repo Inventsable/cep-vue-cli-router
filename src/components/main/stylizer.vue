@@ -146,6 +146,7 @@ export default {
         this.appThemeChanged
       );
       this.appThemeChanged();
+      this.app.stylizer = this;
     },
     appThemeChanged() {
       const skinInfo = window.__adobe_cep__.getHostEnvironment();
