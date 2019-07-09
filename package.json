@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "types-for-adobe": "github:ten-A/types-for-adobe",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
