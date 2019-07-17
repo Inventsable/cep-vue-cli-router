@@ -1,5 +1,11 @@
 # cep-vue-cli-router
 
+---
+
+## DEPRECATED 07/08/19 -- Generator now uses [router2x](https://github.com/Inventsable/cep-vue-cli-router2x)
+
+---
+
 ## Template used in [generator-cep-vue-cli](https://github.com/Inventsable/generator-cep-vue-cli)
 
 > **NOTE:** This repo should not be `git clone`d directly because it has breaking placeholder values and will not run on it's own.
